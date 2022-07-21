@@ -12,13 +12,9 @@ namespace Boxing_Unboxing
             Object y = x;
             Console.WriteLine(y + " - Boxing para Tipo Referência");
 
-            //Boxing - Transforma tipo Referencia em tipo valor
+            //Unboxing - Transforma tipo Referencia em tipo valor
             int w = (int) y;
             Console.WriteLine(w + " - Unboxing para Tipo Valor");
-
-
-
-
         }
     }
 }
